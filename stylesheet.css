@@ -110,7 +110,7 @@ header {
   letter-spacing: 1px;
 }
 .header-left .logo em{
-  color : #ed563b;
+  color : #ff0040;
   font-style: normal;
   font-weight: 900;
 }
@@ -126,15 +126,15 @@ header {
 }
 
 .header-right li:hover a{
-  color: #ed563b !important;
+  color: #ff5e87 !important;
   opacity: 1;
 }
 .header-right li:first-child a{
-  background-color: #ed563b;
+  background-color: #ff0040;
   margin-left: 10px;
 }
 .header-right li:first-child:hover a{
-  background-color: #e4715d;
+  background-color: #ff0040;
 }
 .header-right a {
   line-height: 30px;
