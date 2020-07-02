@@ -30,14 +30,11 @@ a {
 }
 
 .top-wrapper {
-<<<<<<< HEAD
-  padding: 150px 0 100px 0;
+  <<<<<<< HEAD padding: 150px 0 100px 0;
   background-image: url(file:///D:/Desktop/progate-ceb-e11/images/bg4.png);
-=======
-  padding: 180px 0 100px 0;
+  =======padding: 180px 0 100px 0;
   background-image: url("images/bg4.png");
->>>>>>> 1199d2c9e66d31b8779c86d788d47c49127bbd4f
-  background-position: center;
+  >>>>>>>1199d2c9e66d31b8779c86d788d47c49127bbd4f background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -62,7 +59,7 @@ a {
 .top-wrapper p {
   opacity: 1;
   margin-bottom: 10px;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 .btn-wrapper {
@@ -113,15 +110,17 @@ header {
 .header-left {
   float: left;
 }
-.header-left .logo{
+
+.header-left .logo {
   font-size: 32px;
   font-weight: 800;
   color: white;
   line-height: 65px;
   letter-spacing: 1px;
 }
-.header-left .logo em{
-  color : #ff0040;
+
+.header-left .logo em {
+  color: #ff0040;
   font-style: normal;
   font-weight: 900;
 }
@@ -138,23 +137,27 @@ header {
   float: right;
   transition: all 0.5s;
 }
-.header-right li{
+
+.header-right li {
   float: right;
   margin: 15px 2px;
   font-weight: 400;
 }
 
-.header-right li:hover a{
+.header-right li:hover a {
   color: #ff0040 !important;
   opacity: 1;
 }
-.header-right li:first-child a{
+
+.header-right li:first-child a {
   background-color: #ff0040;
   margin-left: 10px;
 }
-.header-right li:first-child:hover a{
+
+.header-right li:first-child:hover a {
   background-color: #ff5e87;
 }
+
 .header-right a {
   line-height: 30px;
   padding: 0 25px;
@@ -262,8 +265,18 @@ header {
 .profil-detail p {
   color: white;
   font-size: 12px;
+  line-height: 15px;
 }
 
+.btn-cntc .btn {
+  background-color: #ff0040;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.btn-cntc {
+  text-align: center;
+}
 
 /* Footer */
 footer {
