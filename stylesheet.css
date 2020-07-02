@@ -30,13 +30,8 @@ a {
 }
 
 .top-wrapper {
-<<<<<<< HEAD
-  padding: 150px 0 100px 0;
-  background-image: url(file:///D:/Desktop/progate-ceb-e11/images/bg4.png);
-=======
   padding: 180px 0 100px 0;
   background-image: url("images/bg4.png");
->>>>>>> 1199d2c9e66d31b8779c86d788d47c49127bbd4f
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,12 +65,12 @@ a {
 }
 
 .facebook {
-  background-color: #3b5998;
+  border:3px solid #ff0040;
   margin-right: 10px;
 }
 
 .twitter {
-  background-color: #55acee;
+  border: 3px solid #ff0040;
 }
 
 .btn {
@@ -173,6 +168,8 @@ header {
   margin-top: 10px;
   text-align: center;
   color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: normal;
 }
 
 .list-film {
@@ -187,10 +184,10 @@ header {
 
 .card {
   /* Add shadows to create the "card" effect */
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 64, 0.2);
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 10px;
   /* 5px rounded corners */
   height: 450px;
 }
@@ -204,6 +201,7 @@ header {
 .card-content p {
   font-family: 'Poppins', sans-serif;
   line-height: 20px;
+  color: #ff0040;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -221,9 +219,9 @@ header {
 
 .film {
   padding: 15px 40px;
-  background-color: #125cc4;
+  background-color: #ff0040;
   cursor: pointer;
-  box-shadow: 0 7px #134387;
+  box-shadow: 0 7px #ff5e87;
 }
 
 .film:active {
