@@ -30,8 +30,13 @@ a {
 }
 
 .top-wrapper {
+<<<<<<< HEAD
   padding: 150px 0 100px 0;
   background-image: url(file:///D:/Desktop/progate-ceb-e11/images/bg4.png);
+=======
+  padding: 180px 0 100px 0;
+  background-image: url("images/bg4.png");
+>>>>>>> 1199d2c9e66d31b8779c86d788d47c49127bbd4f
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
