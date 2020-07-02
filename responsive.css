@@ -52,12 +52,16 @@
     width: 100%;
   }
 
+  .header-left .logo{
+  padding-left: 10px;
+  }
+
   .header-right {
     display: none;
   }
   
   .menu-icon {
-    display: block;
+    opacity: 1;
   }
 
   footer {
@@ -112,6 +116,6 @@
     border-radius: 20px;
   }
 
- 
+
 
 }
