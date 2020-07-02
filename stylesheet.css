@@ -30,7 +30,7 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 150px 0 100px 0;
   background-image: url(file:///D:/Desktop/progate-ceb-e11/images/bg4.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ a {
   opacity: 1;
   font-size: 20px;
   letter-spacing: 2px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .top-wrapper h2 {
@@ -74,11 +74,12 @@ a {
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -92,7 +93,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(9, 10, 13, .8);
+  background-color: rgba(35, 36, 39, 0.8);
   position: fixed;
   top: 0;
   z-index: 10;
@@ -230,14 +231,6 @@ header {
   text-align: center;
 }
 
-/* Footer */
-footer {
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
 /* style list profil  */
 .main-profil {
   margin: 80px 0 40px;
@@ -264,4 +257,13 @@ footer {
 .profil-detail p {
   color: white;
   font-size: 12px;
+}
+
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }

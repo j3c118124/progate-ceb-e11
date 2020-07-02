@@ -11,6 +11,27 @@
   }
 
 
+  .welcome-text {
+    opacity: 1;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 150px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .top-wrapper p {
+    font-size: 12px;
+  }
+
+
+  .btn {
+    font-size: 16px;
+  }
+
+
   .list-film {
     padding: 6px;
     margin-top: 15px;
@@ -43,6 +64,13 @@
     border-radius: 20px;
   }
 
+  .profil-detail figure {
+    width: 25%;
+  }
+
+  .profil-detail p {
+    font-size: 8px;
+  }
 }
 
 
@@ -64,14 +92,16 @@
     opacity: 1;
   }
 
-  footer {
-    width: 100%;
-    font-size: 12px;
-
+  .welcome-text {
+    font-size: 14px;
   }
 
-  footer img {
-    width: 100px;
+  .top-wrapper h2 {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 12px;
   }
 
   .container {
@@ -116,6 +146,14 @@
     border-radius: 20px;
   }
 
+  footer {
+    width: 100%;
+    font-size: 12px;
 
+  }
+
+  footer img {
+    width: 100px;
+  }
 
 }
