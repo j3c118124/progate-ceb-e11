@@ -52,6 +52,24 @@
     width: 100%;
   }
 
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+
+  footer {
+    width: 100%;
+    font-size: 12px;
+
+  }
+
+  footer img {
+    width: 100px;
+  }
+
   .container {
     width: 100%;
     margin: 0 auto;
@@ -93,5 +111,7 @@
     height: 90px;
     border-radius: 20px;
   }
+
+ 
 
 }
